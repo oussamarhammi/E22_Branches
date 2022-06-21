@@ -11,7 +11,7 @@ namespace ZombieParty_Models
   {
     [Key]
     public int Id { get; set; }
-    [StringLength(10, MinimumLength = 5)]
+    [StringLength(10, MinimumLength = 15)]
     public string Nickname { get; set; }
     public string Biography { get; set; }
 
